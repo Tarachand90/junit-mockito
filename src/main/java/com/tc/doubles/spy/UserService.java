@@ -1,6 +1,6 @@
-package doubles.spy;
+package com.tc.doubles.spy;
 
-import doubles.dummy.User;
+import com.tc.doubles.dummy.User;
 
 public class UserService {
 

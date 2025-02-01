@@ -1,6 +1,6 @@
-package doubles.stubs;
+package com.tc.doubles.stubs;
 
-import doubles.dummy.User;
+import com.tc.doubles.dummy.User;
 
 public interface UserRepository {
     User findById(int id);

@@ -1,7 +1,7 @@
 package com.tc.doubles.mocks;
 
-import doubles.dummy.User;
-import doubles.spy.NotificationService;
+import com.tc.doubles.dummy.User;
+import com.tc.doubles.spy.NotificationService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

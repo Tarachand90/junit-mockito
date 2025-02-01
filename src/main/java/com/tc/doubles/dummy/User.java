@@ -1,4 +1,4 @@
-package doubles.dummy;
+package com.tc.doubles.dummy;
 
 import lombok.*;
 

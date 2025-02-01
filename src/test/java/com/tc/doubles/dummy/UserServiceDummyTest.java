@@ -1,7 +1,5 @@
 package com.tc.doubles.dummy;
 
-import doubles.dummy.User;
-import doubles.dummy.UserService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,7 +1,5 @@
 package com.tc.doubles.stubs;
 
-import doubles.stubs.UserRepository;
-import doubles.stubs.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

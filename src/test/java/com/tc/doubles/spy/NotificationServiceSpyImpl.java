@@ -1,7 +1,6 @@
 package com.tc.doubles.spy;
 
-import doubles.dummy.User;
-import doubles.spy.NotificationService;
+import com.tc.doubles.dummy.User;
 
 public class NotificationServiceSpyImpl implements NotificationService {
 

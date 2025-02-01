@@ -1,8 +1,5 @@
 package com.tc.doubles.dummy;
 
-import doubles.dummy.NotificationService;
-import doubles.dummy.User;
-
 // Creating a Dummy NotificationService Implementation
 public class NotificationServiceImpl implements NotificationService {
 
