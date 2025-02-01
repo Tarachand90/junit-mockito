@@ -13,7 +13,6 @@ public class BookServiceTest {
 
     @BeforeEach
     public void setUp() {
-
         BookRepository bookRepository = new FakeBookRepository();
         bookService = new BookService(bookRepository);
     }
