@@ -1,7 +1,6 @@
 package com.tc.doubles.spy;
 
-import doubles.dummy.User;
-import doubles.spy.UserService;
+import com.tc.doubles.dummy.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

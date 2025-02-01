@@ -1,7 +1,6 @@
 package com.tc.doubles.stubs;
 
-import doubles.dummy.User;
-import doubles.stubs.UserRepository;
+import com.tc.doubles.dummy.User;
 
 public class UserRepositoryStubImpl implements UserRepository {
     @Override

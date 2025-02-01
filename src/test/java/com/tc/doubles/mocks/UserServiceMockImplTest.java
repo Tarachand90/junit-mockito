@@ -1,7 +1,7 @@
 package com.tc.doubles.mocks;
 
-import doubles.dummy.User;
-import doubles.spy.UserService;
+import com.tc.doubles.dummy.User;
+import com.tc.doubles.spy.UserService;
 import org.junit.jupiter.api.Test;
 
 public class UserServiceMockImplTest {

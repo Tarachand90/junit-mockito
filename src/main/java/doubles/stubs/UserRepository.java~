@@ -1,5 +1,0 @@
-package doubles.stubs;
-
-public interface UserRepository {
-    User findById(int id);
-}
