@@ -1,0 +1,6 @@
+username,password,expected
+user1,password123,true
+admin,admin@123,true
+guest,guestPass,true
+user1,wrongPass,false
+unknownUser,password123,false
