@@ -1,27 +1,29 @@
-package com.tc.doubles.stubs.mockito;
-
+package com.tc.doubles.stubs.mockito.annotation.support;
 
 import com.tc.doubles.dummy.User;
 import com.tc.doubles.stubs.UserRepository;
 import com.tc.doubles.stubs.UserService;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
-public class UserServiceStubTest {
-    private UserService userService;
+@ExtendWith(MockitoExtension.class)
+public class UserServiceStubMockitoAnnotationTest {
+
+    @Mock
     private UserRepository stubRepository;
 
-    @BeforeEach
-    public void setUp() {
-        // Arrange: Mock the StubUserRepository
-        stubRepository = mock(UserRepository.class);
-        userService = new UserService(stubRepository);
-    }
+    @InjectMocks
+    private UserService userService;
+
     @Test
     public void testGetUserName() {
+        // Arrange: Define behavior of mock
         User user = new User(1, "Deba");
 
         when(stubRepository.findById(1))
