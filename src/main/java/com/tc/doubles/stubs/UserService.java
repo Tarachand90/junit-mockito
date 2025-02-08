@@ -11,6 +11,6 @@ public class UserService {
 
     public String getUserName(int userId) {
         User user = userRepository.findById(userId);
-        return user == null ? "Unknow" : user.getName();
+        return user == null ? "Unknown" : user.getName();
     }
 }
